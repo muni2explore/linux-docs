@@ -55,4 +55,17 @@ $ sudo a2dismod php7.0
 $ sudo a2enmod php7.1
 $ sudo systemctl restart apache2
 ```
-  
+ After switching from one version to another, you can find your PHP configuration file, by running the command below.
+ ```bash
+ ------------ For PHP 5.6 ------------
+$ sudo update-alternatives --set php /usr/bin/php5.6
+$ php -i | grep "Loaded Configuration File"
+
+------------ For PHP 7.0 ------------
+$ sudo update-alternatives --set php /usr/bin/php7.0
+$ php -i | grep "Loaded Configuration File"
+
+------------ For PHP 7,1 ------------
+$ sudo update-alternatives --set php /usr/bin/php7.1
+$ php -i | grep "Loaded Configuration File"
+ ```
