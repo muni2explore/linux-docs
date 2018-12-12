@@ -24,7 +24,7 @@ $ sudo apt install php7.1   [PHP 7.1]
 ```
 Next install most required PHP modules from the list
 ```bash
-$ sudo apt install php5.6-cli php5.6-xml php5.6-mysql 
+$ sudo apt install sudo apt  install php5.6-intl php5.6-mbstring php5.6-cli php5.6-xml php5.6-mysql php5.6-cgi php5.6-gd php5.6-json php5.6-ldap php5.6-mcrypt php5.6-odbc php5.6-sqlite3 
 $ sudo apt install php7.0-cli php7.0-xml php7.0-mysql 
 $ sudo apt install php7.1-cli php7.1-xml php7.1-mysql 
 ```
