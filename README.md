@@ -49,4 +49,10 @@ $ sudo update-alternatives --config php
   
   Press enter to keep the current choice[*], or type selection number: 1
   
+  To set the PHP version that will work with Apache web server, use the commands below. First disable the current version with the a2dismod command and then enable the one you want with the a2enmod command.
+```bash
+$ sudo a2dismod php7.0
+$ sudo a2enmod php7.1
+$ sudo systemctl restart apache2
+```
   
