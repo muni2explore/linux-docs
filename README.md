@@ -89,5 +89,6 @@ $ php -i | grep "Loaded Configuration File"
  $ sudo systemctl restart apache2
  ```
  # How to Install Multiple PHP Version with Apache on Ubuntu
-[How to Install Multiple PHP Version with Apache on Ubuntu](https://tecadmin.net/install-multiple-php-version-apache-ubuntu/)
-[Run multiple PHP version on the same server using php-fpm and xdebug on Ubuntu 16.04](https://medium.com/@sbuckpesch/run-multiple-php-version-on-the-same-server-using-php-fpm-and-xdebug-on-ubuntu-16-04-6a84f5b7d7ce)
+> [How to Install Multiple PHP Version with Apache on Ubuntu](https://tecadmin.net/install-multiple-php-version-apache-ubuntu/)
+
+> [Run multiple PHP version on the same server using php-fpm and xdebug on Ubuntu 16.04](https://medium.com/@sbuckpesch/run-multiple-php-version-on-the-same-server-using-php-fpm-and-xdebug-on-ubuntu-16-04-6a84f5b7d7ce)
