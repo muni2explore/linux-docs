@@ -41,11 +41,11 @@ $ sudo update-alternatives --set php /usr/bin/php7.0
 ```bash
 $ sudo update-alternatives --config php
 ```
- Selection    Path             Priority   Status
-------------------------------------------------------------
-* 0            /usr/bin/php5.6   56        auto mode
-  1            /usr/bin/php5     50        manual mode
-  2            /usr/bin/php5.6   56        manual mode
+| Selection   | Path       |      Priority  | Status |
+| ---         | ---        |   ---          | ---    |
+|* 0          |  /usr/bin/php5.6 |  56     |   auto mode  |
+|  1          |  /usr/bin/php5   |  50     |   manual mode|
+|  2          | /usr/bin/php5.6  | 56      | manual mode  |
   
   Press enter to keep the current choice[*], or type selection number: 1
   
