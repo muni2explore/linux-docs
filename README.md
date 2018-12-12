@@ -79,3 +79,12 @@ $ php -i | grep "Loaded Configuration File"
 $ sudo update-alternatives --set php /usr/bin/php7.1
 $ php -i | grep "Loaded Configuration File"
  ```
+ 
+ TO restart Apache server
+ ```bash
+ $ sudo service apache2 restart
+ ```
+ ### OR
+  ```bash
+ $ sudo systemctl restart apache2
+ ```
