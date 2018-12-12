@@ -11,6 +11,16 @@ apt-get install software-properties-common #Ubuntu 14.04 or 16.04
 sudo apt install python-software-properties
 sudo add-apt-repository ppa:ondrej/php
 ```
+> Now if you get following error add-apt-repository throws Python error: UnicodeDecodeError: 'ascii' codec can't decode byte 0xc5
+
+> It's because The software-properties-common is buggy, so if have a time, please report this as a bug in software-properties-common.
+
+```bash
+sudo LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
+```
+
+
+
 Next update the repositories
 ```bash
 sudo apt-get update
