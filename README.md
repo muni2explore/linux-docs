@@ -16,6 +16,7 @@ lsb_release -a
 |sudo|Excutes only that command with root/super user privileges|
 |clear| This command us used to clear the terminal screen. Contents will not be deleted but scrolled down|
 |ls|This command will list down directories and files in the current directory|
+|cd|Change directory|
 
 
 
