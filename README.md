@@ -4,6 +4,22 @@ Checking Your Ubuntu Version From the Terminal
 ```bash
 lsb_release -a
 ```
+## Commands
+
+|Command | Explaination |
+| --- | ---|
+|pwd|Displays the current working directory of the terminal(print working directory)|
+|/|Root Directory|
+|echo|Command that write its arguments to standard outout|
+|su|used to switch to root user(so that super user permission can be used to excute commands)|
+|su username|used to switch to a different user|
+|sudo|Excutes only that command with root/super user privileges|
+|clear| This command us used to clear the terminal screen. Contents will not be deleted but scrolled down|
+|ls|This command will list down directories and files in the current directory|
+
+
+
+
 # Install Multiple versions of PHP
 
 ```bash
