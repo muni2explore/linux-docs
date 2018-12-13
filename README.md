@@ -19,6 +19,21 @@ lsb_release -a
 |cd|Change directory|
 
 
+## ls command
+```bash
+$ ls [options] [file | directory]
+```
+
+|Command | Explaination |
+| --- | ---|
+|ls|This command lists all the contents in the current working directory|
+|ls path|By specifying the path after ls, the content in the path will be display|
+|ls -l|using 'l' flag, lists all th contents along with its owner settings, permissions & time stamp (long format)|
+|ls -a|using 'a' flag, it will lists all the hidden contents in the specified directory|
+|ls -author|using 'author' flag, lists the contents in the specified directory along with its owner|
+|ls *.html|using '*' flag, lists only the content in the directory of a particular format|
+|ls -ls > file.txt| using '>' flag, copies the result of ls command into a text file|
+
 
 
 # Install Multiple versions of PHP
