@@ -31,6 +31,7 @@ $ ls [options] [file | directory]
 |ls -l|using 'l' flag, lists all th contents along with its owner settings, permissions & time stamp (long format)|
 |ls -a|using 'a' flag, it will lists all the hidden contents in the specified directory|
 |ls -author|using 'author' flag, lists the contents in the specified directory along with its owner|
+|ls -s|using 's' flag, sorts and lists the contents in the specified directory by size|
 |ls *.html|using '*' flag, lists only the content in the directory of a particular format|
 |ls -ls > file.txt| using '>' flag, copies the result of ls command into a text file|
 
