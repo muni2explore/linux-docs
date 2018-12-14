@@ -117,7 +117,7 @@ $ cp [options] source destination
 |cp -i|Enters the interacive mode; CLI asks before overwriting files|
 |cp -n|Does not overwrite the file|
 |cp -R|Recursive copy for copying directories; Copies even hidden files|
-|cate -V| Verbose; Prints informative messages|
+|cp -v| Verbose; Prints informative messages (prints progress)|
 
 > By default 'cp' copies only files
 
