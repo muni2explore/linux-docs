@@ -106,6 +106,19 @@ grep dh File1.txt File2.txt | sort \\ Searches for string 'dh' from both files a
 grep dh File1.txt File2.txt | sort -r \\ Sorts the results in reverse order
 ```
 
+## Working with files & Directories: 'cp' command
+```bash
+$ cp [options] source destination
+```
+
+|Command | Explaination |
+| --- | ---|
+|cp|This command is used to copy files and directories|
+|cp -i|Enters the interacive mode; CLI asks before overwriting files|
+|cp -n|Does not overwrite the file|
+|cp -R|Recursive copy; Copies even hidden files|
+|cate -V| Verbose; Prints informative messages|
+
 
 # Install Multiple versions of PHP
 
