@@ -42,6 +42,7 @@ $ cd [directory]
 
 |Command | Explaination |
 | --- | ---|
+|cd|Changes the directory to home directory|
 |cd ~|This command also changes the directory to home directory|
 |cd /|Changes the directory to root directory|
 |cd ..|Changes the directory to ots parent directory|
