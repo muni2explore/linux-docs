@@ -48,7 +48,28 @@ $ cd [directory]
 |cd ..|Changes the directory to ots parent directory|
 |cd 'xx yy'|We specify the folder name in inverted commsa because there is a space in the folder name|
 
+## Working with files: cat command
+```bash
+$ cat [options] file1 [file2..]
+```
 
+|Command | Explaination |
+| --- | ---|
+|**cat|This command is used to display the context of the text files and concatenate several files into one**|
+|cat -b|this is used to add line numbers to non blank lines|
+|cat -n|This is used to add line numbers to all lines|
+|cat -s|This is used to squeeze blank lines into one line|
+|cate -E| Show $ at the end of line|
+
+```bash
+$ cat > file1.txt
+```
+The '>' flag can be used to create a new file and enter text contents from the terminal
+
+```bash
+$ cat >> file1.txt
+```
+The '>>' flag can be used to append text contents to an existing file from the terminal
 
 # Install Multiple versions of PHP
 
