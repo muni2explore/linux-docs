@@ -55,7 +55,7 @@ $ cat [options] file1 [file2..]
 
 |Command | Explaination |
 | --- | ---|
-|**cat|This command is used to display the context of the text files and concatenate several files into one**|
+|cat|This command is used to display the context of the text files and concatenate several files into one|
 |cat -b|this is used to add line numbers to non blank lines|
 |cat -n|This is used to add line numbers to all lines|
 |cat -s|This is used to squeeze blank lines into one line|
@@ -70,6 +70,42 @@ The '>' flag can be used to create a new file and enter text contents from the t
 $ cat >> file1.txt
 ```
 The '>>' flag can be used to append text contents to an existing file from the terminal
+
+## Working with files: grep command
+
+> We use the 'grep' command to search for a particular string/word in a text file
+> This is similar to 'Ctrl+F', but excuted via a CLI
+
+```bash
+grep options file1.txt \\Returns results for matching string 'options'
+grep -i options file1.txt \\Returns results for case insensitive strings
+grep -n options file1.txt \\Returns the matching strings along with their line number
+grep -v options file1.txt \\Returns results of lines not matching the search string
+grep -c options file1.txt \\Returns the number of lines in which the results matched search string
+```
+## Working with files: sort command
+
+> We use the 'sort' command to sort the results of search either alphabetically or numerically
+> Files, file contents and directories can be sorted.
+
+```bash
+sort file1.txt \\Sorts the contents of file1.txt and returns them in alphabetical order
+sort file1.txt file2.txt \\ Sorts the content of both file1.txt & file2.txt
+sort -r file1.txt \\ 'r' flag returns the results in reverse order
+sort -f file1.txt \\ 'f' flag does case insensitive sorting
+sort -n file1.txt \\  'n' flag returns the results as per numerical order
+```
+
+## Working with '|' command
+
+> The '|' command a.k.a 'pipe' commands is used to output the result of one command as input to another command.
+> '|' are used to perform two operation in the same command.
+
+```bash
+grep dh File1.txt File2.txt | sort \\ Searches for string 'dh' from both files and sorts the results
+grep dh File1.txt File2.txt | sort -r \\ Sorts the results in reverse order
+```
+
 
 # Install Multiple versions of PHP
 
