@@ -146,6 +146,21 @@ $ mkdir directory-path
 |mkdir --parents|This is also used for the same process|
 |mkdir -p file1/{f2,f3,f4}|This is used to create multiple subdirectories inside the new parent directory|
 
+
+## Working with Files & Directories: 'rm' & 'rmdir' command
+```bash
+$ rmdir foldername
+$ rm foldername/filename
+```
+
+|Command | Explaination |
+| --- | ---|
+|rmdir|This command is used to remove the specified directory(Empty)|
+|rmdir -p| Removes both the parent and child directory|
+|rmdir -pv| Removes both the parent and child directories along with the verbose|
+|rm -r| Removes even non empty directories|
+|rm -rp|Removes non empty directories including parent and subdirectories|
+
 # Install Multiple versions of PHP
 
 ```bash
