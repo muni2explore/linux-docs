@@ -59,7 +59,7 @@ $ cat [options] file1 [file2..]
 |cat -b|this is used to add line numbers to non blank lines|
 |cat -n|This is used to add line numbers to all lines|
 |cat -s|This is used to squeeze blank lines into one line|
-|cate -E| Show $ at the end of line|
+|cat -E| Show $ at the end of line|
 
 ```bash
 $ cat > file1.txt
@@ -128,10 +128,10 @@ $ mv [options] source destination
 
 |Command | Explaination |
 | --- | ---|
-|cp|This command is used to move files and directories|
+|mv|This command is used to move files and directories|
 |mv -i|Enters the interacive mode; CLI asks before overwriting files|
-|cp -u|Updates the destination file only when source file is different from destination file|
-|cp -v|Verbose; Prints source and destination files (prints progress)|
+|mv -u|Updates the destination file only when source file is different from destination file|
+|mv -v|Verbose; Prints source and destination files (prints progress)|
 
 # Install Multiple versions of PHP
 
