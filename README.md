@@ -121,6 +121,18 @@ $ cp [options] source destination
 
 > By default 'cp' copies only files
 
+## Working with files & Directories: 'mv' command
+```bash
+$ mv [options] source destination
+```
+
+|Command | Explaination |
+| --- | ---|
+|cp|This command is used to move files and directories|
+|mv -i|Enters the interacive mode; CLI asks before overwriting files|
+|cp -u|Updates the destination file only when source file is different from destination file|
+|cp -v|Verbose; Prints source and destination files (prints progress)|
+
 # Install Multiple versions of PHP
 
 ```bash
