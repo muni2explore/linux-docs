@@ -116,9 +116,10 @@ $ cp [options] source destination
 |cp|This command is used to copy files and directories|
 |cp -i|Enters the interacive mode; CLI asks before overwriting files|
 |cp -n|Does not overwrite the file|
-|cp -R|Recursive copy; Copies even hidden files|
+|cp -R|Recursive copy for copying directories; Copies even hidden files|
 |cate -V| Verbose; Prints informative messages|
 
+> By default 'cp' copies only files
 
 # Install Multiple versions of PHP
 
