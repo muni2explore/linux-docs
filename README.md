@@ -35,6 +35,18 @@ $ ls [options] [file | directory]
 |ls *.html|using '*' flag, lists only the content in the directory of a particular format|
 |ls -lS > file.txt| using '>' flag, copies the result of ls command into a text file|
 
+## cd command
+```bash
+$ cd [directory]
+```
+
+|Command | Explaination |
+| --- | ---|
+|cd ~|This command also changes the directory to home directory|
+|cd /|Changes the directory to root directory|
+|cd ..|Changes the directory to ots parent directory|
+|cd 'xx yy'|We specify the folder name in inverted commsa because there is a space in the folder name|
+
 
 
 # Install Multiple versions of PHP
