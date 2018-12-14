@@ -133,6 +133,19 @@ $ mv [options] source destination
 |mv -u|Updates the destination file only when source file is different from destination file|
 |mv -v|Verbose; Prints source and destination files (prints progress)|
 
+
+## Working with Directories: 'mkdir' command
+```bash
+$ mkdir directory-path
+```
+
+|Command | Explaination |
+| --- | ---|
+|mkdir|This command is used to create a new directory|
+|mkdir -p| Creates both a new parent directory and a sub-directory|
+|mkdir --parents|This is also used for the same process|
+|mkdir -p file1/{f2,f3,f4}|This is used to create multiple subdirectories inside the new parent directory|
+
 # Install Multiple versions of PHP
 
 ```bash
