@@ -249,3 +249,5 @@ $ php -i | grep "Loaded Configuration File"
 > [How to Install Multiple PHP Version with Apache on Ubuntu](https://tecadmin.net/install-multiple-php-version-apache-ubuntu/)
 
 > [Run multiple PHP version on the same server using php-fpm and xdebug on Ubuntu 16.04](https://medium.com/@sbuckpesch/run-multiple-php-version-on-the-same-server-using-php-fpm-and-xdebug-on-ubuntu-16-04-6a84f5b7d7ce)
+> [shtool at /tmp does not exist or is not executable](https://support.plesk.com/hc/en-us/articles/115001406994--pecl-install-fails-on-Plesk-for-Linux-server-shtool-at-tmp-does-not-exist-or-is-not-executable)
+
